@@ -5,7 +5,7 @@ import { useState } from "react";
 import TaskItem from "./app/task-item";
 
 export default function Home() {
-  const [tasks, setTasks] = useState([
+  const [tasks] = useState([
     {
       id: 1,
       title: "Complete project documentation",
